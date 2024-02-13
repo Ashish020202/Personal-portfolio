@@ -49,13 +49,69 @@ section {
 
 .profileS{
     display: flex;
-    height: 80vh;
+    height: 70vh;
     justify-content: center;
     gap: 5rem;
 }
+.profile {
+    display: flex;
+    height: 350px;
+    width: 400px;
+    margin: auto 0;
+  }
 
 img{
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+   
+}
+
+.profile-r{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.ptext{
+    text-align: center;
+    align-self: center;
+    
+}
+
+/* .ptext p{
+    font-weight: 300;
+} */
+.ptext p{
+    font-size: 1.75rem;
+    margin-bottom: 0.3rem;
+    color: rgb(255, 196, 0);
+}
+.profileText{
+    align-self: center;
+    text-align: center;
+}
+.text-h{
+    font-size: 2rem;
+}
+.icon {
+    cursor: pointer;
+    height: 2rem;
+  }
+  
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn{
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 8rem;
+    cursor: pointer;
 }
