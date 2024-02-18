@@ -160,6 +160,12 @@ img{
   #experience{
     position: relative;
   }
+  .title{
+    text-align: center;
+  }
+  .experience-title{
+    text-align: center;
+  }
   .experience-subtitle {
     color: rgb(85, 85, 85);
     font-weight: 600;
